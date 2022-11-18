@@ -29,14 +29,12 @@ print("My name is", name, surname, ",my alias is", alias, "and my age is", age)
 # Input
 name = input('what is your name?')
 age = input('what is your age?')
-
 print(name)
 print(age)
 
-# Change types
+# Change types (soft type)
 name = 39
 age = "Jorge"
-
 print(name)
 print(age)
 
