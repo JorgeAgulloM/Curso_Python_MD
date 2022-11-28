@@ -167,6 +167,6 @@ def generate_pass(pwd_length = 14) -> str:
     
     return pwd
 
-# print(generate_pass(14))
+print(generate_pass(14))
 
 """ finish """
