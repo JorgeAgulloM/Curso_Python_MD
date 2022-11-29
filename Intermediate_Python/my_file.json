@@ -1,0 +1,17 @@
+{
+    "name": "Jorge",
+    "surname": "Agullo",
+    "age": 39,
+    "heigth": 1.87,
+    "languages": [
+        "Python",
+        "Kotlin",
+        "Java",
+        "Swift"
+    ],
+    "experience": [
+        "Android Developer",
+        "Control Specialist",
+        "Scada supervisor"
+    ]
+}

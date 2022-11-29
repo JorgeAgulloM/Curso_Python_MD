@@ -64,3 +64,10 @@ print(my_int)            # = 10
 
 #print(4/0)              # ZeroDivisionError: division by zero
 print(4/2)               # = 2
+
+
+# FileNotFoundError
+
+# .txt file
+#open("my_text_file.txt") # FileNotFoundError: [Errno 2] No such file or directory: 'my_text_file.txt'
+open("Intermediate_Python\my_text_file.txt", "r")
