@@ -66,3 +66,27 @@ json_dict = json.load(open(dir_json))
 print(type(json_dict))      # = <class 'dict'>
 print(json_dict)            # = {'name': 'Jorge', 'surname': 'Agullo', 'age': 39, 'heigth': 1.87, 'languages': ['Python', 'Kotlin', 'Java', 'Swift'], 'experience': ['Android Developer', 'Control Specialist', 'Scada supervisor']}
 print(json_dict["name"])    # = Jorge
+
+
+## .csv files
+
+import csv
+dir_csv = "Intermediate_Python\my_csv_file.csv"
+csv_file = open(dir_csv, "w+")
+
+csv_writer = csv.writer(csv_file)
+csv_writer.writerow(["name", "surname", "age", "language", "website"])
+csv_writer.writerow(["Jorge", "agullo", 40, "Python", "https://github.com/JorgeAgulloM"])
+csv_writer.writerow(["Tania", "", 37, "", ""])
+
+csv_file.close()
+
+with open(dir_csv) as my_other_file:
+    for line in my_other_file.readlines():
+        print(line)
+
+## .xml files
+
+import xml
+
+
